@@ -1,13 +1,192 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: sans-serif;
+  margin: 3rem;
+  background-color: #dfdfdf;
+}
+
+h1, h2 {
+  color: #333333;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.figures {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.numberBtn {
+  /* background-color: #ebf7ec;  */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.numberBtn:hover {
+  background-color: #619b5c;
+  border-color: #4d7a49;
+}
+.numberBtn--alt {
+  background-color: transparent;
+  color: #619b5c;
+}
+
+.numberBtn--alt:hover {
+  background-color: #f8dae9;
+}
+
+.figureBtn {
+  /* background-color: #ebf7ec;  */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.figureBtn:hover {
+  background-color: #619b5c;
+  border-color: #4d7a49;
+}
+
+.figureBtn--alt {
+  background-color: transparent;
+  color: #619b5c;
+}
+
+.figureBtn--alt:hover {
+  background-color: #f8dae9;
+}
+
+
+.btn {
+  /* background-color: #ebf7ec;  */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.btn:hover {
+  background-color: #619b5c;
+  border-color: #4d7a49;
+}
+.btn--alt {
+  background-color: transparent;
+  color: #619b5c;
+}
+.btn--alt:hover {
+  background-color: #ade6b7;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.disabledBtn {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background-color: #619b5c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  color: black;
+  border: 2px solid #4d7a49;
+}
+
+.App {
+  text-align: center;
+} 
+
+.App-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font:  Bold calc(15px + 2vmin) Arial, sans-serif;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font: calc(10px + 2vmin) Arial, sans-serif;
+
 }
