@@ -13,6 +13,7 @@ This project was created for the Klik2Learn Coding Challange.
     :-- The way I was going about making the game functional was to have an array of the numbers and the figures, and use their index position (pre-shuffle) to determine if a match was made. 
     
     :-- During my attempts, I did get more proficient with the tools and ended up having a lot of duplicated code. This is why there is 2 version of the numbers and figures. the top one has the functionality that I did manage to implement for part two, including new numbers each time and on click selection.
+    
   Total time = ~5 hours.
   
   
