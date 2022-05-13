@@ -2,11 +2,16 @@ This project was created for the Klik2Learn Coding Challange.
 
 :- The first part of the challenge I found simple enough, even without using HTML extensively or React.JS at all. This is the bottom version of the numbers and figures, aiming to be a recreation of the example HTML page.
   Total time = ~2 hours.
+  
 :- The third part was done in short order with help from online resources, although it just has basic functionality and doesn't work from the ideal prompt (successfully completing the game) it has the basics of what I believe you were looking for. 
   Total time = ~2 hours.
+  
 :- The second part of the challenge gave me the most difficulty and ultimately I was unsuccessful, without having a better understanding of the syntax of react.JS I was unable to put in the desired functionality from manipulating tutorials and documentation online. 
+    
     :-- There was a great deal of trial and error, and I found that it was the syntax of logic and the construction of functions that were missing.
+    
     :-- The way I was going about making the game functional was to have an array of the numbers and the figures, and use their index position (pre-shuffle) to determine if a match was made. 
+    
     :-- During my attempts, I did get more proficient with the tools and ended up having a lot of duplicated code. This is why there is 2 version of the numbers and figures. the top one has the functionality that I did manage to implement for part two, including new numbers each time and on click selection.
   Total time = ~5 hours.
   
