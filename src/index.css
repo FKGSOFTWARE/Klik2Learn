@@ -190,3 +190,7 @@ h1, h2 {
   font: calc(10px + 2vmin) Arial, sans-serif;
 
 }
+
+.functionalAttempt {
+  margin: 40px
+}
