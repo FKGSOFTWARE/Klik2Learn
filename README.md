@@ -3,10 +3,12 @@ I was able to complete, two of the three challenges (1, and 3) although I did ha
 All of the time estimates are including time spent looking at tutorials and documentation.
 
 :- The first part of the challenge I found simple enough, even without using HTML extensively or React.JS at all. This is the bottom version of the numbers and figures, aiming to be a recreation of the example HTML page.
-  Total time = ~2 hours.
+
+Total time = ~2 hours.
   
 :- The third part was done in short order with help from online resources, although it just has basic functionality and doesn't work from the ideal prompt (successfully completing the game) it has the basics of what I believe you were looking for. The screen appears when any of the buttons on the lower two rows from the first part are selected. 
-  Total time = ~2 hours.
+
+Total time = ~2 hours.
   
 :- The second part of the challenge gave me the most difficulty and ultimately I was unsuccessful, without having a better understanding of the syntax of react.JS I was unable to put in the desired functionality from manipulating tutorials and documentation online. 
     
