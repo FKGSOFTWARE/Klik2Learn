@@ -17,7 +17,7 @@ This project was created for the Klik2Learn Coding Challange.
   Total time = ~5 hours.
   
   
-  I believe that with a little more time I would be able to get a hang of the syntax issues. Certainly by the start date of the internship I'll be much more profiecent in this software. 
+  I believe that with a little more time I would be able to get a hang of the syntax issues. Certainly, by the start date of the internship, I'll be much more proficient in this software.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
