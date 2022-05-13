@@ -1,23 +1,25 @@
-This project was created for the Klik2Learn Coding Challange.
+I was able to complete, two of the three challenges (1, and 3) although I did have an attempt at adding functionality, hence why there are two versions of the numbers and figures in the browser when the code is run. Below is some more information that can also be found in the readme of the project. 
+
+All of the time estimates are including time spent looking at tutorials and documentation.
 
 :- The first part of the challenge I found simple enough, even without using HTML extensively or React.JS at all. This is the bottom version of the numbers and figures, aiming to be a recreation of the example HTML page.
   Total time = ~2 hours.
   
-:- The third part was done in short order with help from online resources, although it just has basic functionality and doesn't work from the ideal prompt (successfully completing the game) it has the basics of what I believe you were looking for. 
+:- The third part was done in short order with help from online resources, although it just has basic functionality and doesn't work from the ideal prompt (successfully completing the game) it has the basics of what I believe you were looking for. The screen appears when any of the buttons on the lower two rows from the first part are selected. 
   Total time = ~2 hours.
   
 :- The second part of the challenge gave me the most difficulty and ultimately I was unsuccessful, without having a better understanding of the syntax of react.JS I was unable to put in the desired functionality from manipulating tutorials and documentation online. 
     
-    :-- There was a great deal of trial and error, and I found that it was the syntax of logic and the construction of functions that were missing.
-    
-    :-- The way I was going about making the game functional was to have an array of the numbers and the figures, and use their index position (pre-shuffle) to determine if a match was made. 
-    
-    :-- During my attempts, I did get more proficient with the tools and ended up having a lot of duplicated code. This is why there is 2 version of the numbers and figures. the top one has the functionality that I did manage to implement for part two, including new numbers each time and on click selection.
-    
+  :-- There was a great deal of trial and error, and I found that it was the syntax of logic and the construction of functions that was the knowledge I was missing.
+
+  :-- The way I was going about making the game functional was to have an array of the numbers and the figures, and use their index position (pre-sample) to determine if a match was made. Although a dictionary using keys and values would have been my preferred choice.
+
+  :-- During my attempts, I did get more proficient with the tools and ended up changing a lot of the code that was there and rewriting it over and over. This is why there is 2 version of the numbers and figures so that I could at least show the two complete parts of the challenge. The top one has the functionality that I did manage to implement for part two, including new numbers each time and on click selection.
+
   Total time = ~5 hours.
-  
-  
-  I believe that with a little more time I would be able to get a hang of the syntax issues. Certainly, by the start date of the internship, I'll be much more proficient in this software.
+
+  I believe that with a little more time I would be able to get a hang of the syntax issues. Certainly, by the start date of the internship, I'll be much more proficient in this software, being able to use it to create functional, efficient and extremely usable apps. 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
